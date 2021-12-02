@@ -1,0 +1,120 @@
+@import "variables.scss";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', $familia1;
+}
+
+.links{
+    text-decoration: none;
+}
+
+
+.main__position{
+    padding-top: $paddingBasico;
+    padding-bottom: $paddingBasico;
+}
+
+
+.carousel__textos div{
+    h5 {
+        color: $colorTextoSecundario;
+        font-weight: bold;
+        font-family: $familia1;
+    }
+    p{
+        color: $colorTextoSecundario;
+    }
+}
+
+.trabajos__individual{
+    padding-bottom: 2vh;
+    a{
+        font-family: $familia1;
+        text-decoration: none;
+        font-weight: 700;
+    }
+}
+
+.trabajos__destacado{
+    scale: (1,1);
+    transform-origin: top left;
+}
+
+.trabajos__destacado:hover{
+    transform: scale(1.05,1.05);
+}
+
+.asideNoticias__textos div{
+    a{
+        color: $colorTextos;
+        text-decoration: none;
+        font-weight: 500;
+        font-family: $familia1;
+    }
+    p{ 
+        color: $colorTextos;
+        font-size: 1.5vh;
+    }
+}
+
+.fondoBoton {
+    background-color: #0E6BA8;
+    color: $colorTextoSecundario; }
+  
+  ul li a {
+    color: $colorTextoSecundario;
+    text-decoration: none;
+    font-weight: bolder; }
+
+
+.carousel__textos div h5 {
+    color: $colorTextoSecundario;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif; }
+  
+  .carousel__textos div p {
+    color: $colorTextoSecundario; }
+
+.fondoBoton{
+    background-color: $colorPrincipal;
+    color: $colorTextoSecundario;
+}
+
+ul li a{
+    color: $colorTextoSecundario;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.main__position{
+    padding-bottom: $paddingBasico;
+    padding-top: $paddingBasico;
+}
+
+// PROPIEDADES NUEVAS
+
+.descripciones{
+    font: bolder;
+    font-size: 2.5vh;
+    font-family: $familia1;
+    
+}
+
+.descripciones--titulos{
+    @extend .descripciones;
+    text-transform: uppercase;
+}
+
+.trabajos__global{
+    padding-right: $paddingBasico*4;
+}
+
+.asideNoticias__noticia{
+    padding: $paddingBasico/4;
+}
