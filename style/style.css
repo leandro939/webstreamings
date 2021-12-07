@@ -26,7 +26,12 @@ body {
   .trabajos__individual a {
     font-family: "Montserrat", sans-serif;
     text-decoration: none;
-    font-weight: 700; }
+    font-weight: 700;
+  }
+
+.trabajos__individual p {
+    font-size: 1.5vh; 
+}
 
 .trabajos__destacado {
   scale: 1, 1;
