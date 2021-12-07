@@ -91,3 +91,7 @@ ul li a {
 
 .asideNoticias__noticia {
   padding: 1vh; }
+
+footer div p {
+  font-size: 1vh;
+}
