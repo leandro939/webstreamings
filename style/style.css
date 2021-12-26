@@ -87,14 +87,13 @@ ul li a {
 
 
 
-
-footer{
-  width: 100%;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  background: #0E6BA8;
-}
+  footer{
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    background: #0E6BA8;
+  }
 
 footer .content{
   max-width: 1350px;
