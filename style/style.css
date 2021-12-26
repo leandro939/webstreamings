@@ -40,13 +40,13 @@ body {
 .trabajos__destacado:hover {
   transform: scale(1.02, 1.02); }
 
-.asideNoticias__textos div a {
+.asideNoticias__Textos div a {
   color: #141415;
-  text-decoration: none;
+  
   font-weight: 500;
   font-family: "Montserrat", sans-serif; }
 
-.asideNoticias__textos div p {
+.asideNoticias__Textos div p {
   color: #141415;
   font-size: 1.5vh; }
 
@@ -59,12 +59,12 @@ ul li a {
   text-decoration: none;
   font-weight: bolder; }
 
-.carousel__textos div h5 {
+.carousel__Textos div h5 {
   color: #F7F4F3;
   font-weight: bold;
   font-family: 'Montserrat', sans-serif; }
 
-.carousel__textos div p {
+.carousel__Textos div p {
   color: #F7F4F3; }
 
 .fondoBoton {
@@ -76,20 +76,16 @@ ul li a {
   text-decoration: none;
   font-weight: bolder; }
 
-.main__position {
-  padding-bottom: 4vh;
-  padding-top: 4vh; }
-
-.descripciones, .descripciones--titulos {
+.descripciones, .descripciones__Titulos {
   font: bolder;
   font-size: 2.5vh;
   font-family: "Montserrat", sans-serif; }
 
-.descripciones--titulos {
+.descripciones__Titulos {
   text-transform: uppercase; }
 
 
-.asideNoticias__noticia {
+.asideNoticias__Noticia {
   padding: 1vh; }
 
 footer div p {
