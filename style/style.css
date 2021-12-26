@@ -79,11 +79,8 @@ ul li a {
 .descripciones, .descripciones__Titulos {
   font: bolder;
   font-size: 2.5vh;
+  text-transform: uppercase;
   font-family: "Montserrat", sans-serif; }
-
-.descripciones__Titulos {
-  text-transform: uppercase; }
-
 
 .asideNoticias__Noticia {
   padding: 1vh; }
