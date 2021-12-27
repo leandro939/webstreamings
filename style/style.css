@@ -105,6 +105,11 @@ background-color: #cccccc;
 text-align: center;
 }
 
+
+.table-responsive {
+   overflow-x: hidden;
+ }
+
 /* FOOTER */
 
 footer{
