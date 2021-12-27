@@ -105,10 +105,9 @@ background-color: #cccccc;
 text-align: center;
 }
 
-
-.table-responsive {
-   overflow-x: hidden;
- }
+table th {
+  width: auto;
+}
 
 /* FOOTER */
 
