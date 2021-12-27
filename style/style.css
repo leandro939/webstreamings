@@ -13,6 +13,8 @@ body {
   padding-top: 4vh;
   padding-bottom: 4vh; }
 
+/* HOME */
+
 .carousel__textos div h5 {
   color: #F7F4F3;
   font-weight: bold;
@@ -20,6 +22,8 @@ body {
 
 .carousel__textos div p {
   color: #F7F4F3; }
+
+/* PORTFOLIO */
 
 .trabajos__individual {
   padding-bottom: 2vh; }
@@ -50,6 +54,9 @@ body {
   color: #141415;
   font-size: 1.5vh; }
 
+  .asideNoticias__Noticia {
+    padding: 1vh; }
+
 .fondoBoton {
   background-color: #0E6BA8;
   color: #F7F4F3; }
@@ -59,13 +66,7 @@ ul li a {
   text-decoration: none;
   font-weight: bolder; }
 
-.carousel__Textos div h5 {
-  color: #F7F4F3;
-  font-weight: bold;
-  font-family: 'Montserrat', sans-serif; }
-
-.carousel__Textos div p {
-  color: #F7F4F3; }
+/* EQUIPOS */
 
 .fondoBoton {
   background-color: #0E6BA8;
@@ -82,10 +83,8 @@ ul li a {
   text-transform: uppercase;
   font-family: "Montserrat", sans-serif; }
 
-.asideNoticias__Noticia {
-  padding: 1vh; }
 
-
+/* FOOTER */
 
 footer{
   width: 100%;
