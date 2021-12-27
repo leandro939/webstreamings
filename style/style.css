@@ -119,6 +119,9 @@ footer .content{
   justify-content: space-between;
 }
 
+footer .content .bottom p{
+ margin-top: 4px;
+}
 
 footer .content .box{
   width: 33%;
