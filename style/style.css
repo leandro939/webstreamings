@@ -98,7 +98,7 @@ footer{
 footer .content{
   max-width: 1350px;
   margin: auto;
-  padding: 20px;
+  padding: 16px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -129,12 +129,12 @@ footer .content .media-icons a{
   font-size: 16px;
   height: 45px;
   width: 45px;
-  display: inline-block;
+  display:inline-block;
   text-align: center;
   line-height: 43px;
   border-radius: 5px;
   border: 2px solid #222222;
-  margin: 30px 5px 0 0;
+  margin: 32px 4px 0 12px;
   transition: all 0.3s ease;
 }
 
@@ -146,9 +146,8 @@ footer .bottom{
   width: 100%;
   text-align: right;
   color: #d9d9d9;
-  padding: 0px 8px 8px 0px;
+  padding: 0px 8px 0px 0px;
 }
-
 
 footer a{
   transition: all 0.3s ease;
@@ -157,7 +156,6 @@ footer a{
 footer a:hover{
   color: #0E6BA8;
 }
-
 
 @media (max-width:950px){
   footer .content .box{
