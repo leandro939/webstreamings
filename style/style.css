@@ -83,6 +83,16 @@ ul li a {
   text-transform: uppercase;
   font-family: "Montserrat", sans-serif; }
 
+  /* CONTACTO */
+
+.cajaFormulario {
+  width: 50%; 
+  padding-top: 8vh;
+}
+
+.cajaFormulario p{
+background-color: #cccccc;
+}
 
 /* FOOTER */
 
