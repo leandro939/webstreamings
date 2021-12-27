@@ -13,6 +13,10 @@ body {
   padding-top: 4vh;
   padding-bottom: 4vh; }
 
+  header nav div a{
+    font-family:'Montserrat', sans-serif;
+  }
+
 /* HOME */
 
 .carousel__textos div h5 {
