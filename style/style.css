@@ -200,6 +200,6 @@ footer a:hover{
   }
 }
 
-@media (max-width: 721px) {
-  .tablaResponsive {width: 50%;}
+@media (min-width: 721px) {
+  .tablaResponsive {width: 50%; margin: auto;}
 }
