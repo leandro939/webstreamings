@@ -29,6 +29,10 @@ body {
 .carousel__textos div p {
   color: #F7F4F3; }
 
+.table {
+  font-family: "open sans", sans-serif;
+}
+
 /* PORTFOLIO */
 
 .trabajos__individual {
