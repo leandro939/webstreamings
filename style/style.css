@@ -172,6 +172,8 @@ footer .bottom{
 
 footer a{
   transition: all 0.3s ease;
+  color: white;
+  text-decoration: none;
 }
 
 footer a:hover{
